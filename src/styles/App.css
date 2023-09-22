@@ -6,11 +6,9 @@
 #root {
     display: flex;
     justify-content: center;
-
 }
 .App {
-    width: 800px;
-
+    max-width: 800px;
 }
 .post {
     border: 2px solid teal;
@@ -22,7 +20,5 @@
     margin: 15px;
     background: cadetblue;
     color: aliceblue;
-}
-.App {
-    width: 800px;
+    width: 600px;
 }

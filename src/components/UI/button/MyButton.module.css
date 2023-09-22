@@ -1,8 +1,9 @@
 .mtBtn {
-    padding: 5px 15px;
+    padding: 10px 25px;
     color: teal;
     font-size: 14px;
     background: aliceblue;
     border: 1px solid teal;
     cursor: pointer;
+    border-radius: 10px;
 }
