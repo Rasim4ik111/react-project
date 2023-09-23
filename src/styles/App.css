@@ -3,22 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 #root {
     display: flex;
     justify-content: center;
 }
-.App {
-    max-width: 800px;
+
+body {
+    background-color: #9bd0e7;
 }
+
+.App {
+    margin-top: 25px;
+    width: 600px;
+
+}
+
 .post {
     border: 2px solid teal;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 0px 14px ;
+    border-radius: 0px 14px;
     padding: 15px;
-    margin: 15px;
+    margin: 15px 0;
     background: cadetblue;
     color: aliceblue;
-    width: 600px;
 }
