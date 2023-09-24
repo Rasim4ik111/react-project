@@ -9,24 +9,24 @@
     justify-content: center;
 }
 
-body {
-    background-color: #9bd0e7;
-}
-
 .App {
     margin-top: 25px;
     width: 600px;
-
+    padding: 10px;
 }
 
 .post {
-    border: 2px solid teal;
+    border: 1px solid teal;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 0px 14px;
     padding: 15px;
     margin: 15px 0;
     background: cadetblue;
     color: aliceblue;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.post button {
+    margin-top: 10px;
 }

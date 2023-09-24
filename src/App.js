@@ -8,6 +8,7 @@ import MySelect from "./components/UI/select/MySelect";
 const App = () => {
     const [posts, setPosts] = useState([{id: 1, title: "Javascript", body: "Javascript is a programming language"},])
     const [selectedSort, setSelectedSort] = useState('')
+
     const createPost = (newPost) => {
         setPosts([...posts, newPost])
     }
@@ -18,7 +19,7 @@ const App = () => {
 
     const sortPosts = (sort) => {
         setSelectedSort(sort);
-        console.log(sort)
+        setPosts([...posts].sort((a, b) => a[sort].localeCompare(b[sort])))
     }
 
     return (<div className="App">
